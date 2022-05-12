@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="wrapper">
+        <div class="block chat-block">
+            <div class="control-panel">
+                <button class="settings">Настройки</button>
+                <button class="log-out">Выйти</button>
+            </div>
+            <div class="view-chat">
+
+            </div>
+            <div class="send-panel">
+                <form class="form-message" action="">
+                    <input class="input-message" type="text">
+                    <button type="submit" class="enter-message">-></button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="block create   ">
+            <div class="item ">
+                <div class="block-title">
+                    <p class="title">Создать аккаунт</p>
+                    <button class="btn-close">X</button>
+                </div>
+                <form class="form create" action="">
+                    <p>Имя (логин)</p>
+                    <input class="input create" type="text" placeholder="Enter Your email">
+                    <button>Создать</button>
+                </form>
+                <div class="other-option">
+                    <!-- <p class="wrong-password">Неверные логин или пароль</p> -->
+                    <!-- <p>У меня уже есть аккаунт (Войти)</p> -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="block autorization  ">
+            <div class="item ">
+                <div class="block-title">
+                    <p class="title">Авторизация</p>
+                    <button class="btn-close">X</button>
+                </div>
+                <form class="form autorization" action="">
+                    <p>Мы отправили код на почту</p>
+                    <input class="input autorization" type="text" placeholder="Enter valideta code">
+                    <button>Авторизоваться</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="block chahge-name">
+            <div class="item ">
+                <div class="block-title">
+                    <p class="title">Изменить имя в чате</p>
+                    <button class="btn-close">X</button>
+                </div>
+                <form class="form chahge-name" action="">
+
+                    <input class="input chahge-name" type="text" placeholder="New name">
+                    <button>Изменить</button>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <template>
+        <div class="item-message">
+            <div class="block-text">
+                <span class="whois">Я</span>
+                <p class="show-text">Ну здравствуй!!</p>
+            </div>
+
+            <p class="time">08:43</p>
+        </div>
+    </template>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

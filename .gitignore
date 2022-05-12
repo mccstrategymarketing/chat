@@ -1,0 +1,5 @@
+.parsel-chache/*
+/.parsel-chache
+parsel-chache/
+node_modules
+node_modules/*

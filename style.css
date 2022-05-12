@@ -1,0 +1,195 @@
+* {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #000;
+    transition: 0.8s;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.block {
+    height: 440px;
+    width: 320px;
+    border: 1px solid black;
+}
+
+.block.chat-block {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.control-panel {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.settings,
+.log-out {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+
+
+.view-chat {
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+}
+
+.send-panel {
+    padding: 10px 0;
+
+}
+
+.form-message {
+
+    display: flex;
+}
+
+
+
+.input-message {
+    font-size: 24px;
+    width: 100%;
+    height: 32px;
+}
+
+.enter-message {
+    margin: 0 8px;
+    white-space: nowrap;
+
+}
+
+.block.create,
+.block.autorization,
+.block.chahge-name {
+    background: #535353;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background: #fff;
+    border: 1px solid black;
+    height: 319px;
+    width: 270px;
+    padding: 16px 14px;
+}
+
+.block-title {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-close {
+    border: none;
+
+}
+
+.form.create,
+.form.autorization,
+.form.chahge-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.form p {
+    margin: 8px 0;
+}
+
+.form input {
+    margin: 8px 0;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.form button {
+    height: 32px;
+    width: 84px;
+}
+
+.other-option {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.other-option p {
+    margin: 10px 0;
+}
+
+.wrong-password {
+    color: red;
+    font-weight: bold;
+}
+
+.item-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 6px 14px;
+    margin: 3px 0;
+    background: #ffb;
+
+}
+
+.whois::after {
+    content: ": ";
+}
+
+.whois.message {
+    display: inline;
+}
+
+.show-text {
+    display: inline;
+}
+
+.time {
+    color: #919191;
+    font-weight: bold;
+}
+
+.block.active {
+    position: absolute;
+    display: flex;
+}
+
+.item-message.me {
+    align-self: end;
+}
+
+.item-message.oponent {
+    align-self: start;
+
+}
